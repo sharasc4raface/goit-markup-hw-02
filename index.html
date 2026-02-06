@@ -4,13 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MAIN PAGE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap" rel="stylesheet">
+
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-
-        <ul>
+      <nav class="site-nav"> 
+        <a href="./index.html" class="logo">WebStudio</a>
+        <!--medium css -->
+        <ul class="nav-list">
           <li>
             <a href="#">Studio</a>
           </li>
@@ -24,7 +36,7 @@
       </nav>
 
       <!--емейл ,номер телефону -->
-      <address>
+      <address class="link-text">
         <ul>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
@@ -35,17 +47,16 @@
       <!--FIRST SECTION-->
 
       <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="title-header">Effective Solutions for Your Business</h1>
+        <button type="button" class="text-btn">Order Service</button>
       </section>
 
       <!--Two section -->
       <section>
-        <h2>Benefits</h2>
-
+        <h2 class="header-two">description</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
+            <h3 class="header-three">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
@@ -76,7 +87,7 @@
       </section>
       <!--Three section-->
       <section id="contacts">
-        <h2>Our Team</h2>
+        <h2 class="team-squad">Our Team</h2>
 
         <ul>
           <li>
@@ -85,7 +96,7 @@
               alt="photo1"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
+            <h3 class="employed">Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
           <li>
@@ -94,7 +105,7 @@
               alt="photo2"
               width="264"
             />
-            <h3>Tom Ford</h3>
+            <h3 class="employed">Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
@@ -103,7 +114,7 @@
               alt="photo3"
               width="264"
             />
-            <h3>Camila Garcia</h3>
+            <h3 class="employed">Camila Garcia</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -112,17 +123,76 @@
               alt="photo4"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
+            <h3 class="employed">Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
         </ul>
+      </section>x
+
+      <section>portfolio
+        <h2>Our Portfolio</h2>
+          <ul>
+            <li>
+              <img src="./images/our-portfolio/1.jpg"
+              alt="Banking-App"
+              width="360"
+              />
+              <h3>Banking-App</h3>
+              <p>App</p>
+            </li>
+            
+            <li>
+              <img src="./images/our-portfolio/2.png"
+              alt="Cashless Payment"
+              width="360"
+                />
+              <h3>Cashless Payment</h3>
+              <p>Marketing</p>
+              </li>
+
+            <li>
+              <img src="./images/our-portfolio/3.png"
+              alt="Meditation App"
+              width="360"
+              />
+              <h3>Meditation App</h3>
+              <p>App</p>
+            </li>
+
+            <li>
+              <img src="./images/our-portfolio/4.png"
+              alt="Taxi Service"
+              width="360"
+              />
+              <h3>Taxi Service</h3>
+              <p>Marketing</p>
+            </li>
+
+            <li>
+              <img src="./images/our-portfolio/5.png"
+              alt="Screen Illustrations"
+              width="360"
+              />
+              <h3>Screen Illustrations</h3>
+              <p>Design</p>
+            </li>
+
+            <li>
+              <img src="./images/our-portfolio/6.png"
+              alt="Online Courses"
+              width="360"
+              />
+              <h3>Online Courses</h3>
+              <p>Marketing</p>
+              </li>
+          </ul>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer-warp">
       <a href="./index.html">WebStudio</a>
 
-      <p>
+      <p class="footer-smalltext">
         Increase the flow of customers and sales for your business with digital
         marketing &amp; growth solutions.
       </p>
