@@ -8,6 +8,15 @@ body {
     background-color: #FFFFFF;
 }
 
+.site-nav {
+    color: #2F4242;
+}
+
+.nav-list a{
+    font-weight: 500;
+    
+    }
+
 .logo {
     font-family: "Raleway",sans-serif;
     font-weight: 700;
@@ -53,15 +62,6 @@ p {
     letter-spacing: 0.04em;
     color: #434455;
 }
-
-.site-nav {
-    color: #2F4242;
-}
-
-.nav-list a{
-    font-weight: 500;
-    
-    }
 
 .text-btn {
     font-weight: 500;
