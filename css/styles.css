@@ -8,15 +8,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.site-nav {
-    color: #2F4242;
-}
-
-.nav-list a{
-    font-weight: 500;
-    
-    }
-
 .logo {
     font-family: "Raleway",sans-serif;
     font-weight: 700;
@@ -91,3 +82,10 @@ p {
 .footer-smalltext {
     color: #f4f4fd;  
 }
+
+.site-nav {
+    color: #2F4242;
+}
+
+.nav-list a{
+    font-weight: 500;
