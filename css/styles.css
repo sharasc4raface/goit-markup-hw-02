@@ -8,6 +8,11 @@ body {
     background-color: #FFFFFF;
 }
 
+.header >.logo {
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+}
+
 
 
 .title-header {
@@ -75,14 +80,3 @@ body {
 
 .footer-smalltext {
     color: #f4f4fd;  
-}
-
-
-
-
-
-
-
-
-
-
