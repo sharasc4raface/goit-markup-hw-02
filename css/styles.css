@@ -8,7 +8,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.header-class > .logo {
+.logo {
     font-family: "Raleway",sans-serif;
     font-weight: 700;
 }
@@ -37,18 +37,18 @@ body {
     color: #2E2F52;
 }
 
-.p {
+p {
     font-size: 12px;
     line-height: 1.17;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     color: #434455;
 }
 
 .site-nav {
-    color: #e7e9fc;
+    color: #2F4242;
 }
 
-.nav-list .a{
+.nav-list a{
     font-weight: 500;
     
     }
