@@ -8,7 +8,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.logo {
+.nav-logo {
     font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -33,7 +33,6 @@ body {
     line-height: 1.07;
     color: #FFFFFF;
     background-color: #2e2f42;
-
 }
 
 .header-two {
