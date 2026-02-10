@@ -19,9 +19,9 @@ body {
 
 }
 
-/*.header-logo-span {
+.nav-logo-span {
     color: #2E2F42;
-}*/
+}
 
 .nav-item {
     color: #2E2F42;
@@ -86,8 +86,14 @@ p {
     font-size:16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#434455;
 }
 
+.address-item:hover ,
+.address-item:focus
+{
+    color:#404BBF;
+}
 
 
 .taem-squad {
