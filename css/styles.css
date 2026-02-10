@@ -73,12 +73,22 @@ p {
     
 }
 
-.link-text {
+.address-link {
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.04em;
     text-decoration: underline;
+    font-style: normal;
+
 }
+
+.address-item {
+    font-size:16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
 
 .taem-squad {
     background-color: #f4f4fd;
