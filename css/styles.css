@@ -19,9 +19,20 @@ body {
 
 }
 
-.header-logo-span {
+/*.header-logo-span {
     color: #2E2F42;
+}*/
+
+.nav-item {
+    color: #2E2F42;
+    }
+
+.nav-item:hover ,
+.nav-item:focus {
+    color:#404bbf;
 }
+
+
 
 
 
