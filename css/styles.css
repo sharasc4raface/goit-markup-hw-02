@@ -32,24 +32,6 @@ body {
     color: #404BBF;
 }
 
-.header-two {
-    font-weight: 700;
-    font-size: 36px;    
-}
-
-.header-three {
-    font-weight: 500;
-    font-size: 20px;
-    color: #2E2F52;
-}
-
-p {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #434455;
-}
-
 .address-link {
     font-size: 12px;
     line-height: 1.33;
@@ -121,5 +103,36 @@ p {
 .text-btn:hover ,
 .text-btn:focus {
     background-color:#404BBF;
+}
+
+/*TWO SECTION*/
+
+/*.header-two {
+    font-weight: 700;
+    font-size: 36px;
+
+}*/
+
+.header-three {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F52;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2EF442;
+
+
+}
+
+.text-item {
+    font-size: 16px;
+    
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #434455;
 }
 
