@@ -27,8 +27,8 @@ body {
     color: #2E2F42;
     }
 
-.nav-item:hover ,
-.nav-item:focus {
+.nav-item li:first-child ,
+.nav-item li:first-child {
     color: #404BBF;
 }
 
@@ -74,7 +74,7 @@ p {
 
 
 .taem-squad {
-    background-color: #f4f4fd;
+    background-color: #F4F4F4;
 }
 
 .footer-warp {
@@ -83,7 +83,7 @@ p {
 }
 
 .footer-smalltext {
-    color: #f4f4fd;  
+    color: #F4F4F4;  
 }
 
 .site-nav {
@@ -94,6 +94,9 @@ p {
     font-weight: 500;}
 
 /* first section */
+.section-one {
+    background-color: #2E2F42;
+}
 
 .title-header {
     font-family: 'Roboto', sans-serif;
