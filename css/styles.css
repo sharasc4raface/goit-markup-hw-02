@@ -29,7 +29,7 @@ body {
 
 .nav-item:hover ,
 .nav-item:focus {
-    color:#404bbf;
+    color: #404BBF;
 }
 
 .header-two {
@@ -119,3 +119,4 @@ p {
 .text-btn:focus {
     color:#404BBF;
 }
+
