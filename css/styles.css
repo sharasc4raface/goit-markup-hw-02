@@ -27,8 +27,8 @@ body {
     color: #2E2F42;
     }
 
-.nav-item li:first-child ,
-.nav-item li:first-child {
+.nav-item li:first-child:hover ,
+.nav-item li:first-child:focus {
     color: #404BBF;
 }
 
@@ -113,13 +113,13 @@ p {
     font-weight: 500;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color: #4d5ae5;
+    background-color: #4D5AE5;
     cursor: pointer;
     line-height: 1.5;
 }
 
 .text-btn:hover ,
 .text-btn:focus {
-    color:#404BBF;
+    background-color:#404BBF;
 }
 
