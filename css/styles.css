@@ -54,17 +54,6 @@ body {
     color:#404BBF;
 }
 
-
-
-.footer-warp {
-    background-color:   #434455;
-       
-}
-
-.footer-smalltext {
-    color: #F4F4F4;  
-}
-
 .site-nav {
     color: #2F4242;
 }
@@ -159,3 +148,21 @@ p {
     letter-spacing: 0.02em;
     color:#2E2F42;
 }
+
+/* footer */
+
+.footer-warp {
+    background-color: #2E2F42;
+
+       
+}
+
+.footer-smalltext {
+    color: #F4F4FD;
+
+}
+
+.footer-span {
+    color:F4F4FD;
+}
+
