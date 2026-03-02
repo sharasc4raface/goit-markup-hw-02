@@ -27,8 +27,8 @@ body {
     color: #2E2F42;
     }
 
-.nav-item li:first-child:hover ,
-.nav-item li:first-child:focus {
+.nav-item:hover ,
+.nav-item:focus {
     color: #404BBF;
 }
 
@@ -161,7 +161,6 @@ p {
 
 .footer-smalltext {
     color: #F4F4FD;
-
 }
 
 
